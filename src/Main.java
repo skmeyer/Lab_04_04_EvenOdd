@@ -5,9 +5,10 @@ public class Main
         int numToExamine = 37;
         int evenOrOdd = numToExamine%2;
 
-        System.out.println("If the following number is a 0, the number is even. If it's a 1, it's odd: " + evenOrOdd);
-        System.out.println("Since the number was a 1, " + numToExamine + " is an odd number!");
-
+        if (evenOrOdd == 0)
+            System.out.println(numToExamine + ", the number you entered, is even!" );
+        else
+            System.out.println(numToExamine + ", the number you entered, is odd!" );
 
     }
 }
